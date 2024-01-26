@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toggle Extension</title>
+    <style>
+        body {
+            width: 200px;
+            text-align: center;
+        }
+
+        .wrapper {
+            background: url(./icon.png);
+        }
+
+        #showCook,
+        #setcook,
+        #clearcook {
+            margin: 20px;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            background-color: #f5dfdf97;
+        }
+
+        .hover:hover {
+            background-color: #ebc2c2 !important;
+        }
+
+        #cook {
+            height: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="showCook" class="hover">show cookies</div>
+        <div id="clearcook" class="hover">clear cookies</div>
+        <div id="setcook" class="hover">set cookie</div>
+        <textarea name="" id="cook" cols="30" rows="10"></textarea>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

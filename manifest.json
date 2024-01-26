@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "a bạn àk | cookie editor",
+  "version": "1.0",
+  "description": "simple cookie editor for chrome help u sign in onetime forever",
+  "host_permissions": [
+  "https://*/*"
+  ],
+   "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icons":{
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+  },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "browsingData"
+  ]
+}
