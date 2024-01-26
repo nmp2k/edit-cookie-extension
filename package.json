@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popup.js",
+  "scripts": {
+    "minify": "uglifyjs popup.js -o output.min.js -m",
+    "obfuscate": "javascript-obfuscator popup.js --output output.obfuscated.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "javascript-obfuscator": "^4.1.0",
+    "uglify-js": "^3.17.4"
+  }
+}
